@@ -1,4 +1,4 @@
-# 🧭 React Tailwind Routing App
+#  React Tailwind Routing App
 
 ## 📌 Description
 

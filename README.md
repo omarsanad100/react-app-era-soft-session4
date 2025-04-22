@@ -1,12 +1,27 @@
-# React + Vite
+# 🧭 React Tailwind Routing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+This is a responsive single-page web application built using **React**, **React Router v6**, and **Tailwind CSS**. It demonstrates the use of client-side routing with active link styling, nested routes, and a clean UI layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app includes multiple pages: **Home**, **About**, **Services**, and **Contact**, with the Contact page featuring **nested sub-routes** such as Emails, Locations, and Phone Numbers. This project is great for beginners exploring routing and modern styling in React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Multi-Page Navigation**: Includes Home, About, Services, and Contact pages
+- **Nested Routing**: Sub-routes inside the Contact page
+- **Programmatic Navigation**: "Go to Home" button inside the Services page
+- **Active Link Highlight**: Visual feedback on the current page in navbar
+- **Clean & Centered Layout**: Pages are centered with large bold text
+- **Responsive Design**: Built using Tailwind CSS utility classes
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend Framework**: React
+- **Routing**: React Router DOM v6
+- **Styling**: Tailwind CSS
+- **Bundler**: Vite
